@@ -63,7 +63,7 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
 
             Vector3 velocity = moveSpeed * movementInput;
             
-            HandleOverlaps();
+            //HandleOverlaps();
 
             bool groundDetected = DetectGroundAndCheckIfGrounded(out bool isGrounded, out GroundInfo groundInfo);
 
